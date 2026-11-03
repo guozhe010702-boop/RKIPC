@@ -1,0 +1,13 @@
+/.cache/
+/build/
+/runtime/
+/local/
+/releases/
+/.venv/
+__pycache__/
+*.pyc
+*.o
+*.a
+*.so
+*.so.*
+*.log

@@ -1,0 +1,465 @@
+{
+  "repository": "https://github.com/LuckfoxTECH/luckfox-pico",
+  "commit": "824b817f889c2cbff1d48fcdb18ab494a68f69d1",
+  "base_path": "project/app/rkipc/rkipc",
+  "tree_sha": "67b823975e2ea5b71e69bf11afc6f00b55a950d3",
+  "files": [
+    {
+      "path": ".clang-format",
+      "git_blob_sha": "2cd14f24f116091aea2ff2a2a20f44614b7e1412",
+      "bytes": 2651,
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "git_blob_sha": "14c08eda60fc383f5cf4aaf05c82550f6c1bd082",
+      "bytes": 17,
+      "mode": "100644"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "git_blob_sha": "ba614d166ad51e7468ba513d0cf35989c0578975",
+      "bytes": 3438,
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "d04b1cb4cceb903fa73136ddb0078f58a575027b",
+      "bytes": 1574,
+      "mode": "100644"
+    },
+    {
+      "path": "cmake/Version.cmake",
+      "git_blob_sha": "e147fefd0c0f3bdff1dfbec953973bc1d3fcb878",
+      "bytes": 5170,
+      "mode": "100644"
+    },
+    {
+      "path": "cmake/version.in",
+      "git_blob_sha": "b23822dfcac226d41ff264ca8bd2edef3c96292d",
+      "bytes": 1207,
+      "mode": "100644"
+    },
+    {
+      "path": "common/audio/rk3588/audio.c",
+      "git_blob_sha": "2b4622362d5b2198b863e1829e040eab8dccea17",
+      "bytes": 9773,
+      "mode": "100644"
+    },
+    {
+      "path": "common/audio/rk3588/audio.h",
+      "git_blob_sha": "65055338c971eff28d4ff4cb9a3572410b0402f2",
+      "bytes": 825,
+      "mode": "100644"
+    },
+    {
+      "path": "common/common.c",
+      "git_blob_sha": "6cae7f37d80f19fdfcd14b221ab9c4e2b4f5217d",
+      "bytes": 3827,
+      "mode": "100644"
+    },
+    {
+      "path": "common/common.h",
+      "git_blob_sha": "adf30cd667278a60bd7b0a8e06381f32d90db35a",
+      "bytes": 2577,
+      "mode": "100644"
+    },
+    {
+      "path": "common/event/event.c",
+      "git_blob_sha": "3fdbbbe1177ae04336a6fafbcf870f77cf7f09ab",
+      "bytes": 2505,
+      "mode": "100644"
+    },
+    {
+      "path": "common/event/event.h",
+      "git_blob_sha": "dfd0786ec9ef7e37960087dbe8089dc263e3957b",
+      "bytes": 938,
+      "mode": "100644"
+    },
+    {
+      "path": "common/isp/rk3588/isp.c",
+      "git_blob_sha": "4e31827274a91731a3052793814726073c270eb2",
+      "bytes": 48705,
+      "mode": "100644"
+    },
+    {
+      "path": "common/isp/rk3588/isp.h",
+      "git_blob_sha": "701f1d6c831903084b53c9cc80f280af5e5b118f",
+      "bytes": 5042,
+      "mode": "100644"
+    },
+    {
+      "path": "common/log.h",
+      "git_blob_sha": "0788040e8250a78c840eb4a84ab28a99b5d84194",
+      "bytes": 3758,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/Hostapd.c",
+      "git_blob_sha": "9d92e988543302bd73da2b0d7bb5ec8acc4a76e2",
+      "bytes": 5445,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/Hostapd.h",
+      "git_blob_sha": "e6bd00ad77605306a278d3c43665898216647a4a",
+      "bytes": 469,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/RK_encode.c",
+      "git_blob_sha": "612272695bfd2083e190a8d423d9d6f4bb444b01",
+      "bytes": 1155,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/RK_encode.h",
+      "git_blob_sha": "089cb829f081585b2cbd549cafb207948aedc015",
+      "bytes": 505,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/Rk_softap.h",
+      "git_blob_sha": "ba16beed48873877bcd1d5abcd1b376eeff0995d",
+      "bytes": 849,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/Rk_wifi.c",
+      "git_blob_sha": "abdd113151c68256bf1cdd9abe12d89fe80eca54",
+      "bytes": 48716,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/Rk_wifi.h",
+      "git_blob_sha": "bb4dd13bd06041ead2e5d555ebba81fc9aff7d72",
+      "bytes": 2778,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/gbk_to_utf8.c",
+      "git_blob_sha": "60ef4e748608d8f9ef92f9635c994681e7434038",
+      "bytes": 202492,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/gbk_to_utf8.h",
+      "git_blob_sha": "7bc709ccec37f3c58b1e73307fa870967910066e",
+      "bytes": 366,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/network.c",
+      "git_blob_sha": "c11d71dcfc5790d53c79a440a0911abaeaf777e4",
+      "bytes": 25101,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/network.h",
+      "git_blob_sha": "1edb59021ab5154ab26f1d90b063f4f41c02d591",
+      "bytes": 5441,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/ntp.c",
+      "git_blob_sha": "200ff77c152d2b9a63d409dee1a071c43425f2a3",
+      "bytes": 5259,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/ntp.h",
+      "git_blob_sha": "b50ce3c24b1e34ef6c00181f1f2657cd79adaa20",
+      "bytes": 361,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/slog.h",
+      "git_blob_sha": "190c8ff24a8f786d38adc4d3fee145f669e4ffb1",
+      "bytes": 746,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/utf8_to_gbk.c",
+      "git_blob_sha": "c61c1ce20208e48fd130d3250fd09e73e365cd30",
+      "bytes": 175455,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/utf8_to_gbk.h",
+      "git_blob_sha": "1472732c8fdca0b463ea3c56ef202dde5df600ad",
+      "bytes": 366,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/utility.c",
+      "git_blob_sha": "b56f153731699168d52183bd3e42a456cbc241a7",
+      "bytes": 3976,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/utility.h",
+      "git_blob_sha": "a3c6ff851e0591ee98f96e3411e427090dc40ebf",
+      "bytes": 760,
+      "mode": "100644"
+    },
+    {
+      "path": "common/network/wpa_ctrl.h",
+      "git_blob_sha": "51fe4ebc4acb02154b3b3b2f7cc9497eed081e2f",
+      "bytes": 20790,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/bmp_reader.c",
+      "git_blob_sha": "ede1dd06a2831d2d1fb93d4585a76dafc9380d2b",
+      "bytes": 4973,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/bmp_reader.h",
+      "git_blob_sha": "a95c197964997215cb9d53076e231791f207fa31",
+      "bytes": 976,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/color_table.c",
+      "git_blob_sha": "e74feb0ce2c16e5c9f1617e3802e8abf357cfc64",
+      "bytes": 8440,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/color_table.h",
+      "git_blob_sha": "a35b5faf5e09a7a104eff60b3763e5d06fb4216f",
+      "bytes": 603,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/draw_paint.c",
+      "git_blob_sha": "3e21e44b43563d07ca31989209052b83a13f650c",
+      "bytes": 2301,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/draw_paint.h",
+      "git_blob_sha": "5032fc35e995c56d517de36182fe9f2097d18031",
+      "bytes": 804,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/font_factory.c",
+      "git_blob_sha": "17ad8dc7b8d97ae29513284234edff2a6df1c797",
+      "bytes": 6477,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/font_factory.h",
+      "git_blob_sha": "02f3166c06beebf74733a3c3c2e685ef73811f4c",
+      "bytes": 946,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/osd.c",
+      "git_blob_sha": "03650d63e178c32016688c4742e7e0fd09162d00",
+      "bytes": 29201,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/osd.h",
+      "git_blob_sha": "c0a93662622f956a78cfd6644559060d0c2b4d85",
+      "bytes": 3487,
+      "mode": "100644"
+    },
+    {
+      "path": "common/osd/osd_common.h",
+      "git_blob_sha": "e3c5d1b49692e635b45110488159aa6afeaf5d74",
+      "bytes": 1742,
+      "mode": "100644"
+    },
+    {
+      "path": "common/param/dictionary.c",
+      "git_blob_sha": "43945fbea8c2add1517612088d245a553f2576bf",
+      "bytes": 10919,
+      "mode": "100644"
+    },
+    {
+      "path": "common/param/dictionary.h",
+      "git_blob_sha": "987c0f49246eda74a9f0913171140b1cbe49b69d",
+      "bytes": 6574,
+      "mode": "100644"
+    },
+    {
+      "path": "common/param/iniparser.c",
+      "git_blob_sha": "3ab629f619ed535957f0fd2444f5afed78ad111a",
+      "bytes": 24243,
+      "mode": "100644"
+    },
+    {
+      "path": "common/param/iniparser.h",
+      "git_blob_sha": "dc788e351b57afb3abc50f63b7d760be7274ad36",
+      "bytes": 13475,
+      "mode": "100644"
+    },
+    {
+      "path": "common/param/param.c",
+      "git_blob_sha": "1a9f11786d179a0fbea12fe7263e07897bafad65",
+      "bytes": 3931,
+      "mode": "100644"
+    },
+    {
+      "path": "common/param/param.h",
+      "git_blob_sha": "7bc8856cd66a592e8cb2cb4c9df65c8e0c453fc7",
+      "bytes": 640,
+      "mode": "100644"
+    },
+    {
+      "path": "common/region_clip/region_clip.c",
+      "git_blob_sha": "c7ace871b58394ed70bec39fbb5b149fe68ab6d1",
+      "bytes": 4052,
+      "mode": "100644"
+    },
+    {
+      "path": "common/region_clip/region_clip.h",
+      "git_blob_sha": "600d2120025686a6e4e3ba5f83e22d3af1609a68",
+      "bytes": 1100,
+      "mode": "100644"
+    },
+    {
+      "path": "common/rockiva/rockiva.c",
+      "git_blob_sha": "dbf9043a1766565ac715cfee1a87b8be31119e66",
+      "bytes": 15668,
+      "mode": "100644"
+    },
+    {
+      "path": "common/rockiva/rockiva.h",
+      "git_blob_sha": "2c01cd182b49b1cb124be895eed7c0477ecdd580",
+      "bytes": 1264,
+      "mode": "100644"
+    },
+    {
+      "path": "common/roi/roi.c",
+      "git_blob_sha": "ad65ae6b9e0068b1617efa50ff79ced2a3abc5e8",
+      "bytes": 6467,
+      "mode": "100644"
+    },
+    {
+      "path": "common/roi/roi.h",
+      "git_blob_sha": "6d562f74acfb2f699ec76390ed7a62de4d41e836",
+      "bytes": 1397,
+      "mode": "100644"
+    },
+    {
+      "path": "common/rtmp/rtmp.c",
+      "git_blob_sha": "bfa5b581fdaf6a5e9e6633775814a0f78c687ab3",
+      "bytes": 3484,
+      "mode": "100644"
+    },
+    {
+      "path": "common/rtmp/rtmp.h",
+      "git_blob_sha": "40781d554016ebd20a973ea2f38aaa45d28b3c65",
+      "bytes": 675,
+      "mode": "100644"
+    },
+    {
+      "path": "common/rtsp/rtsp.c",
+      "git_blob_sha": "2774ecf052aa22e539a3e82f5724354745626785",
+      "bytes": 5432,
+      "mode": "100644"
+    },
+    {
+      "path": "common/rtsp/rtsp.h",
+      "git_blob_sha": "bad41696e93ab682abcacbc67daef2cd48cac3c5",
+      "bytes": 714,
+      "mode": "100644"
+    },
+    {
+      "path": "common/socket_server/server.c",
+      "git_blob_sha": "779ea6b7877ea0fc160a0f739329ecd569f09285",
+      "bytes": 147845,
+      "mode": "100644"
+    },
+    {
+      "path": "common/socket_server/server.h",
+      "git_blob_sha": "cf0d52aa8a84015f4b7a54580e50ca722cca1e4c",
+      "bytes": 292,
+      "mode": "100644"
+    },
+    {
+      "path": "common/socket_server/socket.c",
+      "git_blob_sha": "8d923bd204a830299177a5bb3328df13a5557618",
+      "bytes": 2176,
+      "mode": "100644"
+    },
+    {
+      "path": "common/socket_server/socket.h",
+      "git_blob_sha": "8e84c6e71ce1fb1e217a9b5fb057ec64c214053a",
+      "bytes": 540,
+      "mode": "100644"
+    },
+    {
+      "path": "common/storage/storage.c",
+      "git_blob_sha": "f1e31354b4fd079210731e8865a7ddb6e6b3bad5",
+      "bytes": 58157,
+      "mode": "100644"
+    },
+    {
+      "path": "common/storage/storage.h",
+      "git_blob_sha": "2da2fbe12dadf461c971bec5a2fa35d100f85bb1",
+      "bytes": 5900,
+      "mode": "100644"
+    },
+    {
+      "path": "common/system/system.c",
+      "git_blob_sha": "4747544fb3bc0e2a134e7b2115ff28cc9d9c4055",
+      "bytes": 12108,
+      "mode": "100644"
+    },
+    {
+      "path": "common/system/system.h",
+      "git_blob_sha": "921c167c46d4e71a044ae099bd4b78b4db259b87",
+      "bytes": 2394,
+      "mode": "100644"
+    },
+    {
+      "path": "src/rk3588_ipc/CMakeLists.txt",
+      "git_blob_sha": "a2fe17a2fe4190c4fbd7839e23c940deb0050c71",
+      "bytes": 3178,
+      "mode": "100644"
+    },
+    {
+      "path": "src/rk3588_ipc/RkLunch-stop.sh",
+      "git_blob_sha": "68b37f7187c3e9a6f55d8f9c6df564f6d13f0a65",
+      "bytes": 210,
+      "mode": "100755"
+    },
+    {
+      "path": "src/rk3588_ipc/RkLunch.sh",
+      "git_blob_sha": "a2301717a298cb9c8683e9cd05293bed5c2b9b21",
+      "bytes": 2484,
+      "mode": "100644"
+    },
+    {
+      "path": "src/rk3588_ipc/main.c",
+      "git_blob_sha": "7c2fa11120ddfbefea8b9217d9da9fdb5571be54",
+      "bytes": 3059,
+      "mode": "100644"
+    },
+    {
+      "path": "src/rk3588_ipc/rkipc.ini",
+      "git_blob_sha": "87234d4b55091da78c1be06d1448e5ec9edc21b3",
+      "bytes": 8247,
+      "mode": "100644"
+    },
+    {
+      "path": "src/rk3588_ipc/video/video.c",
+      "git_blob_sha": "d9a4d7a4b96fc231b383245ff834c10314ec7fa3",
+      "bytes": 87699,
+      "mode": "100644"
+    },
+    {
+      "path": "src/rk3588_ipc/video/video.h",
+      "git_blob_sha": "cf330c291998c2c01b0c9ca333af73871e2ca5ce",
+      "bytes": 2643,
+      "mode": "100644"
+    }
+  ],
+  "excluded": "Other SoCs, cloud integrations, model data, fonts/media, and prebuilt libraries; obtain SDK dependencies separately."
+}

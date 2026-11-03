@@ -1,0 +1,3 @@
+# Keep local tooling portable while preserving the locked upstream blob bytes.
+* text=auto eol=lf
+/upstream/rkipc/** -text

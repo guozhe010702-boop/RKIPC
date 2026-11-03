@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-03",
+  "board": {
+    "model": "Rockchip RK3588 EVM3588 B1 Board",
+    "machine": "aarch64",
+    "kernel": "5.10.110"
+  },
+  "source": {
+    "commit": "824b817f889c2cbff1d48fcdb18ab494a68f69d1",
+    "verified_files": 76,
+    "unchanged_upstream_files": true
+  },
+  "sdk": {
+    "filename": "evm3588_linux_rkr3.3-v1.0.3_v1.2.1.23_sdk.tar.gz",
+    "bytes": 11008163840,
+    "extracted_private_files": 43,
+    "rockit_so_sha256": "e3108a3d782dd4c7d74789bb62b6555049326618768ba6f709dd58b454823c04"
+  },
+  "system_rockit_build_inputs_present": false,
+  "private_rockit_build_inputs_present": true,
+  "system_dynamic_library_names_found": [
+    "rkaiq",
+    "freetype"
+  ],
+  "system_dynamic_library_names_not_found": [
+    "rockit",
+    "rtsp",
+    "wpa_client",
+    "rkmuxer",
+    "rockiva",
+    "iconv"
+  ],
+  "probe": {
+    "symbols_resolved": true,
+    "venc_stream_bytes": 400,
+    "venc_pack_bytes": 144,
+    "pack_pts_offset": 16,
+    "pack_data_offset_offset": 36,
+    "camera_opened": false,
+    "rockit_initialized": false,
+    "compiler": "GNU C 9.4.0",
+    "build_succeeded": true,
+    "link_succeeded": true,
+    "load_succeeded": true,
+    "checked_symbols": 7,
+    "sha256": "a30e7622b2f9f9b2bc9b2ca0dfd9acd0f4ff50fb9eec3dc9c6d82f9f8c314615"
+  },
+  "original_video_syntax": {
+    "passed": false,
+    "exit_code": 1,
+    "first_blocker": "Missing freetype2/ft2build.h development header; further API compatibility not yet evaluated"
+  },
+  "full_rkipc_built": false,
+  "full_rkipc_started": false,
+  "camera_pipeline_tested": false,
+  "system_libraries_replaced": false,
+  "isp_service_stopped": false,
+  "previous_camera_process_stopped": false,
+  "remaining": [
+    "Complete matching development headers and muxer/RTSP/other link dependencies",
+    "Check all original video.c APIs after first missing header is resolved",
+    "Adapt VI/VPSS routing and AFBC/NV12 layout to IMX415",
+    "Coordinate RKAIQ and desktop HDMI ownership",
+    "Validate real camera encode, PTS, network/storage backpressure and cleanup"
+  ],
+  "final_observation": {
+    "observed_at": "2026-11-03T15:49:44+08:00",
+    "boot_started_at": "2026-11-03T15:47:04+08:00",
+    "edgevision_running": false,
+    "isp_3a_running": true,
+    "reboot_command_issued_by_this_work": false,
+    "reboot_reason": null,
+    "camera_application_automatically_restarted_by_tools": false
+  }
+}
